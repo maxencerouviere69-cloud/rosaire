@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Le Saint Rosaire</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom, #eef2f7, #dbe7f3);
+    text-align: center;
+}
+
+header {
+    background-image: url('https://images.unsplash.com/photo-1507692049790-de58290a4334');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+.carte {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 900px;
+    margin: 60px auto;
+}
+
+.carte a {
+    text-decoration: none;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    color: #2c3e50;
+    transition: 0.3s;
+}
+
+.carte a:hover {
+    transform: translateY(-5px);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Les Mystères du Rosaire</h1>
+<p>Méditer la vie du Christ avec Marie</p>
+</header>
+
+<div class="carte">
+    <a href="joyeux.html">
+        <h2>Mystères Joyeux</h2>
+        <p>Humilité – Joie – Charité</p>
+    </a>
+
+    <a href="lumineux.html">
+        <h2>Mystères Lumineux</h2>
+        <p>Foi – Lumière – Conversion</p>
+    </a>
+
+    <a href="douloureux.html">
+        <h2>Mystères Douloureux</h2>
+        <p>Patience – Amour – Sacrifice</p>
+    </a>
+
+    <a href="glorieux.html">
+        <h2>Mystères Glorieux</h2>
+        <p>Espérance – Gloire – Vie éternelle</p>
+    </a>
+</div>
+
+</body>
+</html>
